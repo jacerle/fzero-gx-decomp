@@ -18,7 +18,7 @@ import tarfile
 import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
-FORK = 'https://github.com/karamzov123/fzero-gx-decomp.git'
+FORK = 'https://github.com/jacerle/fzero-gx-decomp.git'
 STATE = Path.home()/'.cache/fzgx-agents/integrator-v1.json'
 
 @contextmanager
